@@ -27,6 +27,7 @@ function App() {
     getWeather();
   }, [])
   
+  console.log(dataWeather)
 
 
   return (
@@ -44,9 +45,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        
-          <pre>{JSON.stringify(dataWeather, null ,2)}</pre>
-      
+              
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
