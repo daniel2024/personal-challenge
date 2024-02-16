@@ -1,0 +1,33 @@
+
+
+
+.containerSelectInput{
+    padding: 10px 15px ;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    height: 45px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.containerSelectInput:hover, .inputSearch:focus{
+    background: #F0F0F0;
+    
+}
+
+
+.containerMenuOptions{
+    position: absolute;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px 0px #BBBBBB66;
+
+}
+
+.inputSearch{
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+
+
